@@ -22,7 +22,10 @@
 	}
 
 	function handleToggleTodo(id, value) {
-		dispatch('toggletodo', {id, value})
+		dispatch('toggletodo', {
+			id, 
+			value
+		})
 	}
 </script>
 <div class="todo-list-wrapper">
